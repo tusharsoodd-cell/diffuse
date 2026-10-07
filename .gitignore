@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+diffuse-venv/
+results/*.png
+!results/network.png
+.ipynb_checkpoints/
+.DS_Store
+
+.pytest_cache/
