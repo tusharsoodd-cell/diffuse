@@ -1,0 +1,58 @@
+{
+  "tickers": [
+    "DIA",
+    "EEM",
+    "EFA",
+    "GLD",
+    "IWM",
+    "QQQ",
+    "SPY",
+    "TLT",
+    "USO",
+    "XLB",
+    "XLC",
+    "XLE",
+    "XLF",
+    "XLI",
+    "XLK",
+    "XLP",
+    "XLRE",
+    "XLU",
+    "XLV",
+    "XLY"
+  ],
+  "interval": "1h",
+  "period": "3mo",
+  "n_bars": 455,
+  "leaders": [
+    "XLF",
+    "GLD",
+    "XLC",
+    "SPY",
+    "XLY"
+  ],
+  "n_edges": 28,
+  "diffusion_validation": {
+    "spearman_rho": -0.25099797499860504,
+    "p": 0.019750836849781503,
+    "n_pairs": 86
+  },
+  "backtest": {
+    "label": "strategy",
+    "n_bars": 256,
+    "total_return": -0.00858794813382946,
+    "sharpe_ann": -0.6235255768263864,
+    "sharpe_convention": "annualized, rf=0, 1638.0 bars/yr",
+    "max_drawdown": -0.03074938942188331,
+    "hit_rate": 0.453125,
+    "cost_bps_per_trade": 2.0,
+    "turnover_per_bar": NaN
+  },
+  "null_comparison": {
+    "real_sharpe": -0.6235255768263864,
+    "null_mean": -2.781810915084956,
+    "null_std": 2.2227923053690226,
+    "p_value": 0.23809523809523808,
+    "n_nulls": 20
+  }
+}
